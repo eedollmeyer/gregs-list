@@ -1,0 +1,115 @@
+* {
+	font-family: arial;
+}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+div {
+	margin-bottom: 50px;
+}
+
+/* Nav Bar */
+
+div.nav {
+	padding: 10px;
+	width: 100%;
+	height: 38px;
+	background-color: #F0F0F0;
+	border-bottom: 1px solid black;
+	position: sticky; top: 0px; z-index: 9999;
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	display: inline;
+	margin-top: 0px;
+}
+
+li a {
+	float: right;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+
+
+
+.container {
+	margin-left: 100px;
+}
+
+/* Search box */
+
+.search-box {
+	margin-top: 20px;
+	display: inline;
+}
+
+input {
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+input.search-input {
+	position: relative;
+	top: -10px;
+	line-height: 30px;
+	text-indent: 20px;
+	width: 500px;
+	border: 1px solid #F0F0F0;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+input.search-button {
+	height: 32px;
+	border: 1px solid #F0F0F0;
+	position: relative;
+	top: 3px;
+}
+
+/* Results Navigation */
+
+.pn {
+	display: inline;
+	border: 1px solid #F0F0F0;
+	padding: 10px 20px;
+}
+
+div.pn a {
+	text-decoration: none;
+	color: black;
+}
+
+.pn.prev {
+	border-radius: 5px 0px 0px 5px;
+}
+
+.pn.next {
+	border-radius: 0px 5px 5px 0px;
+}
+
+div.xofx {
+	border-right: 0px;
+	border-left: 0px;
+}
+
+/* Results */
+
+p span.results-text {
+	color: #D3D3D3;
+}
+
+div.results a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
